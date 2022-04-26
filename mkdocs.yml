@@ -6,6 +6,10 @@ repo_name: MusicDin/kubitect
 # Remove docs edit button
 edit_uri: ""
 
+extra_javascript:
+  - javascripts/extra.js
+extra_css:
+  - stylesheets/extra.css
 theme:
   name: material
   custom_dir: docs/overrides
